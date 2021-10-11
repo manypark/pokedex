@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1633917831888,
+  "index": "https://manypark.github.io/pokedex/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://manypark.github.io/pokedex/587-es2017.4e8bd00fc190de6e083c.js",
+        "https://manypark.github.io/pokedex/587-es5.4e8bd00fc190de6e083c.js",
+        "https://manypark.github.io/pokedex/favicon.ico",
+        "https://manypark.github.io/pokedex/index.html",
+        "https://manypark.github.io/pokedex/main-es2017.c426c3d368c32fc19d6d.js",
+        "https://manypark.github.io/pokedex/main-es5.c426c3d368c32fc19d6d.js",
+        "https://manypark.github.io/pokedex/manifest.webmanifest",
+        "https://manypark.github.io/pokedex/polyfills-es2017.796f8c36e558b6819706.js",
+        "https://manypark.github.io/pokedex/polyfills-es5.0a444f9ecef9f85f57ba.js",
+        "https://manypark.github.io/pokedex/runtime-es2017.bd4f7f46b1331c39194f.js",
+        "https://manypark.github.io/pokedex/runtime-es5.bd4f7f46b1331c39194f.js",
+        "https://manypark.github.io/pokedex/styles.c417ac0bc8cc59a8aa70.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://manypark.github.io/pokedex/assets/icons/icon-128x128.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-144x144.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-152x152.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-192x192.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-384x384.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-512x512.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-72x72.png",
+        "https://manypark.github.io/pokedex/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://manypark.github.io/pokedex/587-es2017.4e8bd00fc190de6e083c.js": "ce16d212088c53d0d585142b963503e25099cfb6",
+    "https://manypark.github.io/pokedex/587-es5.4e8bd00fc190de6e083c.js": "33629023409b1fb92a83fd7efdfa1fa3530585b6",
+    "https://manypark.github.io/pokedex/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://manypark.github.io/pokedex/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://manypark.github.io/pokedex/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://manypark.github.io/pokedex/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://manypark.github.io/pokedex/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://manypark.github.io/pokedex/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://manypark.github.io/pokedex/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://manypark.github.io/pokedex/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://manypark.github.io/pokedex/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://manypark.github.io/pokedex/index.html": "9fed80e00b5231b2b7939441af372e76a16a5411",
+    "https://manypark.github.io/pokedex/main-es2017.c426c3d368c32fc19d6d.js": "e4a7f5248b00e48b8ea8290a06abe7afa6d29ccf",
+    "https://manypark.github.io/pokedex/main-es5.c426c3d368c32fc19d6d.js": "fa80ab99583505a71a9ac6edc4a794e6617c2ffe",
+    "https://manypark.github.io/pokedex/manifest.webmanifest": "2b3cb9698d8f8a7914f26f5388087dd00d870ac9",
+    "https://manypark.github.io/pokedex/polyfills-es2017.796f8c36e558b6819706.js": "209fd13674705d5dc6dcc3a82896c26aeaf9523b",
+    "https://manypark.github.io/pokedex/polyfills-es5.0a444f9ecef9f85f57ba.js": "14b67ca240d7623214de389c254ff7ac472dbeca",
+    "https://manypark.github.io/pokedex/runtime-es2017.bd4f7f46b1331c39194f.js": "fd65906ee8658953aec08ffa16f5c9d96dd2ec14",
+    "https://manypark.github.io/pokedex/runtime-es5.bd4f7f46b1331c39194f.js": "8f782d52736b1f2b04efdff364bb082d5af87be3",
+    "https://manypark.github.io/pokedex/styles.c417ac0bc8cc59a8aa70.css": "9f9b3846480b5cc9b6b90c950c1805e64a6b62e5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
