@@ -17,7 +17,7 @@ export class PokemonsEffects {
         () => this.actions$.pipe(
             ofType( actions.cargarPokemon ),
             mergeMap(
-                () => this.pokemonS.getPokemons().pipe(
+                ( p ) => this.pokemonS.getPokemons( p.paginator, p.tabIndex ).pipe(
                     map( ( pokemons:any ) => actions.cargarPokemonSuccess({ pokemons }) ),
                     catchError( err => of( actions.cargarPokemonError({payload: err} ) ) )
                 )

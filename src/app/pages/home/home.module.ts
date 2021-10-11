@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { HomeComponent } from './index/home.component';
 import { HomeRoutingModule } from './home-routing.module';
@@ -13,6 +14,7 @@ import { MaterialModule } from 'src/app/material/material.module';
     CommonModule,
     HomeRoutingModule,
     MaterialModule,
+    FormsModule
   ],
   exports: [
     HomeComponent,

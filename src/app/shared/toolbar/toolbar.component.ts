@@ -35,7 +35,7 @@ export class ToolbarComponent {
       tap( (text) => {
         this.store.dispatch( buscarPokemon({ IdOrNamePokemon: this.input?.nativeElement.value }) );
 
-        this.input?.nativeElement.value == '' ? this.store.dispatch(cargarPokemon()) : null;
+        this.input?.nativeElement.value == '' ? this.store.dispatch( cargarPokemon( { paginator: 20, tabIndex: 1 } ) ) : null;
       })
     ).subscribe();
   }

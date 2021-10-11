@@ -8,6 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   exports: [
@@ -20,6 +21,7 @@ import { MatSliderModule } from '@angular/material/slider';
     MatFormFieldModule,
     MatChipsModule,
     MatSliderModule,
+    MatPaginatorModule
   ]
 })
 
