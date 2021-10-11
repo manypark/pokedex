@@ -1,0 +1,14 @@
+
+<!-- <mat-grid-list cols="12" rowHeight="50px" > -->
+<mat-grid-list [cols]="breakpoint" rowHeight="30px" (window:resize)="onResize($event)" >
+    <mat-grid-tile *ngFor="let item of pokemons" colspan="2" rowspan="4">
+
+    <mat-card (click)="goPokemonDetail(item.name)" class="example-card">
+        <!-- <img mat-card-image [src]=item.id alt="Pokemon"> -->
+        <mat-card-content>
+            <p> {{ item.name }} </p>
+        </mat-card-content>
+    </mat-card>
+
+    </mat-grid-tile>
+</mat-grid-list>

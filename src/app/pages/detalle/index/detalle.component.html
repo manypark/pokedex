@@ -1,0 +1,35 @@
+
+<mat-icon (click)="backPage()">arrow_back</mat-icon>
+
+<mat-card>
+
+    <mat-card-header>
+      <mat-card-title> {{ pokemon?.name | titlecase }} </mat-card-title>
+      <mat-card-subtitle>
+          <h1> Peso: {{pokemon?.weight | number }} kg </h1>
+          {{pokemon!.types[0].type.name | titlecase }}
+      </mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image [src]=pokemon?.sprites?.back_default alt="Pokemon">
+
+    <mat-card-content>
+
+        <div *ngFor="let item of pokemon?.stats" >
+            <h3> {{ item.stat.name | titlecase }} {{ item.base_stat }} 
+                
+            <mat-slider
+                thumbLabel
+                step="1"
+                min="0"
+                [value]="item.base_stat"
+                max="100"
+                aria-label="units">
+            </mat-slider>
+
+            </h3>
+        </div>
+
+    </mat-card-content>
+
+</mat-card>

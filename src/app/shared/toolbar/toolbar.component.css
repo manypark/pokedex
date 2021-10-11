@@ -1,0 +1,22 @@
+
+mat-form-field.mat-form-field {
+    font-size: 15px;
+}
+.example-form-field {
+    width   : 200px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.example-header-image {
+    background-image: url('https://lh3.googleusercontent.com/wPfLmWBJwsPdBhsFXc8X4QZOOvePWjoOBLFXXCwyegjRwYOuabmG5cynthlW0HDgy9s=s360-rw');
+    background-size: cover;
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
+}

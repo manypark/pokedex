@@ -1,0 +1,21 @@
+mat-card {
+    display :block;
+    margin  : 50px auto;
+    width       : 300px;
+    max-width   : 400px;
+}
+
+mat-icon {
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+    font-size: 40px;
+}
+
+img {
+    width: 250px;
+    max-width: 250px;
+}
+
+/* mat-slider {
+    width: 300px;
+} */
